@@ -38,3 +38,11 @@ Updates successfully downloaded and installed.
 ## Status
 Resolved
 
+## Screenshots / Evidence
+- [windows-update-stopped](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/dea76b1f9554def16eaec1a72cbf2a622fa73b5b/evidence/ticket-5/1-windows-update-stopped.png)
+- [BITS-stopped](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/dea76b1f9554def16eaec1a72cbf2a622fa73b5b/evidence/ticket-5/2-BITS-stopped.png)
+- [update-error](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/dea76b1f9554def16eaec1a72cbf2a622fa73b5b/evidence/ticket-5/3-update-error.png)
+- [Windows-Event-Viewer](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/dea76b1f9554def16eaec1a72cbf2a622fa73b5b/evidence/ticket-5/4-Windows-Event-Viewer.png)
+- [services-confirmed-stopped](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/dea76b1f9554def16eaec1a72cbf2a622fa73b5b/evidence/ticket-5/5-services-confirmed-stopped.png)
+- [services-started](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/dea76b1f9554def16eaec1a72cbf2a622fa73b5b/evidence/ticket-5/6-services-started.png)
+- [reset-cmd](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/dea76b1f9554def16eaec1a72cbf2a622fa73b5b/evidence/ticket-5/7-reset-cmd.png)
