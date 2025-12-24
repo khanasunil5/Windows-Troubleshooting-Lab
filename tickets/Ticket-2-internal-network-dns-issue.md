@@ -1,4 +1,4 @@
-# TICKET-002: Connected to Network but Cannot Access Internal Resources
+# Connected to Network but Cannot Access Internal Resources
 
 ## User-Reported Issue
 User reports network shows as connected but cannot access internal company resources.
