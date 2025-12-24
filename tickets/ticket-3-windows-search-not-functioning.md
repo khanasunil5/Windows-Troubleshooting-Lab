@@ -36,3 +36,11 @@ Required Windows Search service disabled, preventing indexing functionality.
 
 ## Status
 Resolved
+
+## Screenshots / Evidence
+
+- [service-disabled](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/e1efd5ab7cec572022a21eb05d92af282bc62778/evidence/ticket-3/1-service-disabled.png)
+- [Search-indexing-off](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/e1efd5ab7cec572022a21eb05d92af282bc62778/evidence/ticket-3/2-Search-indexing%20-off.png)
+- [service-properties](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/e1efd5ab7cec572022a21eb05d92af282bc62778/evidence/ticket-3/3-service-properties.png)
+- [Windows-search-fixed](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/e1efd5ab7cec572022a21eb05d92af282bc62778/evidence/ticket-3/4-Windows-search-fixed.png)
+- [search-working](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/e1efd5ab7cec572022a21eb05d92af282bc62778/evidence/ticket-3/5-search-working.png)
