@@ -43,4 +43,6 @@ User logged in normally with no temporary profile warning. Desktop and files res
 
 ## Status
 Resolved
+## Screenshots / Evidence
+- [User folder renamed](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/72ac90e6e76b40d6fcaa60e9530f58d3b84bcf59/evidence/ticket-1/1-users-folder-renamed.png)
 
