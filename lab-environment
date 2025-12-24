@@ -1,1 +1,11 @@
 
+windows-troubleshooting-lab/
+│
+├── README.md
+├── lab-environment/
+│   ├── environment-overview.md
+│   ├── network-diagram.png
+│   └── tools-used.md
+│
+├── tickets/
+│   ├── TICKET-001-corrupted
