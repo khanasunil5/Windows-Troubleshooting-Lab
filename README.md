@@ -1,8 +1,8 @@
 # Windows Troubleshooting Lab (Domain Environment)
 
 ## Overview
-This project is a hands-on **Windows troubleshooting and Service Desk simulation** built in a controlled virtualised domain environment.  
-The lab focuses on diagnosing and resolving **realistic end-user and system issues** commonly encountered in **IT Support, Service Desk, and IT Technician roles**.
+This project is a hands-on Windows troubleshooting and Service Desk simulation built in a controlled virtualised domain environment.  
+The lab focuses on diagnosing and resolving realistic end-user and system issues commonly encountered in IT Support, Service Desk, and IT Technician roles.
 
 All issues were intentionally reproduced, investigated, resolved, and documented using standard IT tools and best practices, with supporting evidence captured throughout.
 
@@ -10,15 +10,15 @@ All issues were intentionally reproduced, investigated, resolved, and documented
 
 ## Lab Architecture
 
-**Domain:** lab.local  
-**Network Type:** Host-only (isolated internal network)
+Domain: lab.local  
+Network Type: Host-only (isolated internal network)
 
 ### Machines
-- **Domain Controller:** DC01  
-- **Client Machine:** CLIENT01  
+- Domain Controller: DC01  
+- Client Machine: CLIENT01  
 
 ### IP Scheme
-- **DC01:** 192.168.100.10 (Static IP)
+- DC01: 192.168.100.10 (Static IP)
 
 Using a host-only network ensures full communication between the domain controller and client machine while remaining isolated from external networks. This closely simulates an internal corporate environment.
 
@@ -41,19 +41,19 @@ Using a host-only network ensures full communication between the domain controll
 
 ## Virtual Machine Setup
 
-Both systems were created as virtual machines using **VMware Workstation**.  
-Configurations were chosen to balance performance with the host system’s **8 GB RAM**, while maintaining a realistic enterprise-style setup.
+Both systems were created as virtual machines using VMware Workstation.  
+Configurations were chosen to balance performance with the host system’s 8 GB RAM, while maintaining a realistic enterprise-style setup.
 
 ---
 
 ### Domain Controller (DC01)
 
-- **Operating System:** Windows Server 2019 (Desktop Experience)
-- **Memory:** 2 GB RAM
-- **CPU:** 1 processor, 2 cores
-- **Storage:** 60 GB (single virtual disk)
-- **Network:** Host-only
-- **IP Address:** 192.168.100.10 (Static)
+- Operating System: Windows Server 2019 (Desktop Experience)
+- Memory: 2 GB RAM
+- CPU: 1 processor, 2 cores
+- Storage: 60 GB (single virtual disk)
+- Network: Host-only
+- IP Address: 192.168.100.10 (Static)
 
 The static IP ensures domain and DNS stability, which is critical in Active Directory environments.
 
@@ -61,11 +61,11 @@ The static IP ensures domain and DNS stability, which is critical in Active Dire
 
 ### Client Machine (CLIENT01)
 
-- **Operating System:** Windows 11
-- **Memory:** 2 GB RAM
-- **CPU:** 1 processor, 2 cores
-- **Storage:** 40 GB
-- **Network:** Host-only
+- Operating System: Windows 11
+- Memory: 2 GB RAM
+- CPU: 1 processor, 2 cores
+- Storage: 40 GB
+- Network: Host-only
 
 CLIENT01 is joined to the lab.local domain and used to simulate real end-user issues and troubleshooting scenarios.
 
@@ -73,7 +73,7 @@ CLIENT01 is joined to the lab.local domain and used to simulate real end-user is
 
 ## Virtualisation & Performance Optimisation
 
-As the host machine has **8 GB of RAM**, the lab was configured with stability and performance in mind:
+As the host machine has 8 GB of RAM, the lab was configured with stability and performance in mind:
 
 - Domain Controller and client VM were only run simultaneously when required
 - Unused VMs were paused or shut down
@@ -87,11 +87,11 @@ This mirrors real-world IT environments where systems must be operated within re
 ## Domain Controller Configuration
 
 - Installed Windows Server 2019 (Desktop Experience)
-- Renamed server to **DC01**
+- Renamed server to DC01
 - Configured a static IP address
-- Installed **Active Directory Domain Services** and **DNS**
+- Installed Active Directory Domain Services and DNS
 - Promoted server to a Domain Controller
-- Created the **lab.local** domain
+- Created the lab.local domain
 
 Domain services were verified before client testing began.
 
@@ -100,7 +100,7 @@ Domain services were verified before client testing began.
 ## Client Configuration
 
 - Installed Windows 11
-- Joined CLIENT01 to the **lab.local** domain
+- Joined CLIENT01 to the lab.local domain
 - Verified domain authentication using Active Directory user accounts
 
 ---
@@ -128,12 +128,14 @@ Each scenario includes:
 
 ## Project Structure
 
-windows-troubleshooting-lab/
-│
-├── tickets/ # Service Desk-style ticket write-ups
-├── knowledge-base/ # Reusable troubleshooting guides
-├── evidence/ # Screenshots and command output
-└── lab-environment/ # Architecture and configuration details
+tickets/
+Write-ups of each issue as if they were real Service Desk tickets, including what the user reported, how the issue was investigated, and how it was fixed.
+
+knowledge-base/
+Simple how-to guides based on the issues in the tickets, written so the same problems can be fixed again without starting from scratch.
+
+evidence/
+Screenshots and command output taken during troubleshooting to show the problem, the investigation, and the final fix.
 
 ---
 
@@ -153,6 +155,6 @@ windows-troubleshooting-lab/
 
 ## Purpose of This Lab
 
-This project was created to demonstrate **job-ready IT Support skills** through practical troubleshooting, structured documentation, and realistic problem-solving scenarios commonly faced in entry-level IT roles.
+This project was created to demonstrate job-ready IT Support skills through practical troubleshooting, structured documentation, and realistic problem-solving scenarios commonly faced in entry-level IT roles.
 
 
