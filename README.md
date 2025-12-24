@@ -128,3 +128,31 @@ Each scenario includes:
 
 ## Project Structure
 
+windows-troubleshooting-lab/
+│
+├── tickets/ # Service Desk-style ticket write-ups
+├── knowledge-base/ # Reusable troubleshooting guides
+├── evidence/ # Screenshots and command output
+└── lab-environment/ # Architecture and configuration details
+
+---
+
+## Skills Demonstrated
+
+- Windows desktop troubleshooting
+- Active Directory user and profile management
+- DNS diagnosis and resolution
+- Windows services and dependencies
+- Printer and Print Spooler troubleshooting
+- Windows Update repair
+- NTFS and share permission analysis
+- Event Viewer log analysis
+- Professional IT documentation and ticketing workflow
+
+---
+
+## Purpose of This Lab
+
+This project was created to demonstrate **job-ready IT Support skills** through practical troubleshooting, structured documentation, and realistic problem-solving scenarios commonly faced in entry-level IT roles.
+
+
