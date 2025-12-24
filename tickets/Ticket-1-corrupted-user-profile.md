@@ -18,7 +18,6 @@ User unable to access personal files or customised desktop settings.
 
 ## Findings
 - Event ID 1511: Windows cannot find the local profile
-- Event ID 1509: Windows failed to load user profile
 - User profile folder previously renamed, causing registry mismatch
 
 ## Root Cause
@@ -44,5 +43,9 @@ User logged in normally with no temporary profile warning. Desktop and files res
 ## Status
 Resolved
 ## Screenshots / Evidence
-- [User folder renamed](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/72ac90e6e76b40d6fcaa60e9530f58d3b84bcf59/evidence/ticket-1/1-users-folder-renamed.png)
-
+- [User-folder-renamed](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/72ac90e6e76b40d6fcaa60e9530f58d3b84bcf59/evidence/ticket-1/1-users-folder-renamed.png)
+- [temp-profile-warning](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/65183a9426e50c116e56590f8b87aaf3772cf36e/tickets/Ticket-1-corrupted-user-profile.md)
+- [filtering-logs](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/65183a9426e50c116e56590f8b87aaf3772cf36e/evidence/ticket-1/3-filtering-logs.png)
+- [event-1511](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/a4d1e55064d4017e1f4a1711adc72ca02e660efe/evidence/ticket-1/4-event-1511.png)
+- [registry-profilelist-sid](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/a4d1e55064d4017e1f4a1711adc72ca02e660efe/evidence/ticket-1/5_registry-profilelist-sid.png.png)
+- [normal-login](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/a4d1e55064d4017e1f4a1711adc72ca02e660efe/evidence/ticket-1/6-normal-login.png)
