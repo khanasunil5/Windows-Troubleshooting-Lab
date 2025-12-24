@@ -1,4 +1,4 @@
-Corrupted Windows User Profile (Temporary Profile Issue)
+## Corrupted Windows User Profile (Temporary Profile Issue)
 
 ## User-Reported Issue
 User reports logging in successfully but receives a temporary profile. Desktop settings are missing and personal files are unavailable.
