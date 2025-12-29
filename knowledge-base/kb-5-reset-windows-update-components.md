@@ -15,5 +15,5 @@ Windows Update or BITS services stopped.
 Updates install successfully.
 
 ## Related Tickets
-- TICKET-005
+- [Ticket 5[(https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/691c6d3ce831acd987b9f5b9427d37fc78f46719/tickets/Ticket-5-windows-updates-failing.md)
 
