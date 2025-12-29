@@ -17,4 +17,4 @@ Corrupted registry entry under ProfileList.
 User logs in normally with full profile access.
 
 ## Related Tickets
-- TICKET-001
+- [Ticket 1](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/02bcd386b8146aaaf20edcb3fe4c493b56201d74/tickets/Ticket-1-corrupted-user-profile.md)
