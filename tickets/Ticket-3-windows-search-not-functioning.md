@@ -1,4 +1,4 @@
-# TICKET-003: Windows Search Not Returning Results
+# Windows Search Not Returning Results
 
 ## User-Reported Issue
 User reports Windows Search opens but does not return results and shows indexing warning.
