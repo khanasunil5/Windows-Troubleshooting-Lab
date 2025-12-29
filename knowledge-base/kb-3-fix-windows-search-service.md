@@ -16,5 +16,5 @@ Windows Search service disabled.
 Search returns results instantly.
 
 ## Related Tickets
-- TICKET-003
+[Ticket 3](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/3af449449c4322129e58431b341cf073c4f6978d/tickets/Ticket-3-windows-search-not-functioning.md)
 
