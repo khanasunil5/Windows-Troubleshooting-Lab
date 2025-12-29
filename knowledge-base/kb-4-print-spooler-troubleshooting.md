@@ -17,5 +17,5 @@ Print Spooler service stopped or blocked.
 Test print successful.
 
 ## Related Tickets
-- TICKET-004
+- [Ticket 4](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/71f4f67fe7c968fb72d6fe40edcbc653dc998b9d/tickets/Ticket-4-printer-spooler-configuration-error.md)
 
