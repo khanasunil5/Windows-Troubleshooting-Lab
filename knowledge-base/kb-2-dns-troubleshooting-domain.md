@@ -16,5 +16,5 @@ Incorrect DNS configuration on client.
 Hostname resolution and domain access restored.
 
 ## Related Tickets
-- TICKET-002
+- [Ticket 2](https://github.com/khanasunil5/Windows-Troubleshooting-Lab/blob/c3621f4a6add58300593084ddf2413522ce5be78/tickets/Ticket-2-internal-network-dns-issue.md)
 
